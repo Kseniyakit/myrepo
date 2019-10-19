@@ -5,7 +5,7 @@ section.already-learned ol {
 
 section.to-be-learned ol {
     background-color: orange;
-    color: green;
+    color: white;
 }
 
 section.already-learned>ol>li>ul>li>h4>code {
