@@ -1,0 +1,25 @@
+section.already-learned ol {
+    background-color: green;
+    color: white;
+}
+
+section.to-be-learned ol {
+    background-color: orange;
+    color: green;
+}
+
+section.already-learned>ol>li>ul>li>h4>code {
+    background-color: orange;
+}
+
+#special1~li>h4>code {
+    border: 2px solid blue;
+}
+
+section.to-be-learned>ol>li>ul>li>h4>code {
+    background-color: green;
+}
+
+#special2~li {
+    font-size: 24px;
+}
