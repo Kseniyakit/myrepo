@@ -20,6 +20,10 @@ section.to-be-learned>ol>li>ul>li>h4>code {
     background-color: green;
 }
 
+section.to-be-learned>ol>li>ul>li>code {
+    background-color: green;
+}
+
 #special2~li {
     font-size: 24px;
 }
