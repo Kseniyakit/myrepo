@@ -3,6 +3,11 @@
     position: fixed;
     width: 100%;
     z-index: 2;
+    height: 40px;
+}
+
+.nvigation {
+    position: relative;
 }
 
 .nav-item {
@@ -12,7 +17,9 @@
 }
 
 .nav-list {
-    margin: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: 11px;
 }
 
 .content {
@@ -29,6 +36,7 @@
     left: 50%;
     z-index: 1;
     margin-left: -100px;
+    margin-top: -100px;
 }
 
 .ear {
