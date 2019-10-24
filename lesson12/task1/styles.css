@@ -6,7 +6,7 @@ section {
 
 h1 {
     word-spacing: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -23,4 +23,8 @@ p {
 
 .translation {
     color: gray;
+}
+
+a {
+    text-decoration: none;
 }
