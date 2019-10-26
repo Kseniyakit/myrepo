@@ -9,11 +9,12 @@
     .main-image {
         display: block;
         margin: 0 auto;
-        border-radius: 10px;
+        border-radius: 16px;
     }
     
     .gallery {
         display: flex;
+        margin-top: 16px;
     }
     
     .card {
