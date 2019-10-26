@@ -1,8 +1,11 @@
+.image-container {
+    position: relative;
+}
+
 .image {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    position: relative;
 }
 
 .image-button {
@@ -19,7 +22,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%)
+    margin: -25px -100px;
 }
 
 .image-button:hover {
