@@ -12,14 +12,14 @@
 <body>
     <form>
         <div class="form-control">
-            <label>Last Name</label>
-            <input type="text" value="Emerson" name="lastName" readonly>
+            <label for="last-name-form-control">Last Name</label>
+            <input type="text" value="Emerson" name="lastName" id="last-name-form-control" readonly>
 
         </div>
 
         <div class="form-control">
-            <label>Age</label>
-            <input type="number" value="17" min="3" max="10" name="age" required>
+            <label for="age-form-control">Age</label>
+            <input type="number" value="17" min="3" max="10" name="age" id="age-form-control" required>
 
         </div>
         <div class="form-control">
@@ -27,15 +27,15 @@
             <label>Accept terms and conditions</label>
         </div>
         <div class="choose-gender">
-            <input type="radio" name="gender" checked><label>Mail</label>
-            <input type="radio" name="gender"><label>Female</label>
-            <input type="radio" name="gender"><label>Secret</label>
+            <input type="radio" name="gender" id="gender-male" checked><label for="gender-male">Mail</label>
+            <input type="radio" name="gender" id="gender-female"><label for="gender-female">Female</label>
+            <input type="radio" name="gender" id="gender-secret"><label for="gender-secret" ">Secret</label>
         </div>
-        <div class="form-control">
-            <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
+        <div class="form-control ">
+            <textarea name="description " maxlength="10 " placeholder="Write description... "></textarea>
         </div>
-        <div class="form-control">
-            <button type="submit">Submit</button>
+        <div class="form-control ">
+            <button type="submit ">Submit</button>
         </div>
     </form>
 </body>
