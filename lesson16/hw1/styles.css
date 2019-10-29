@@ -53,3 +53,11 @@
     color: white;
     text-transform: uppercase;
 }
+
+.form-control {
+    margin-top: 4px;
+}
+
+.form-control:first-child {
+    margin-top: 0;
+}
