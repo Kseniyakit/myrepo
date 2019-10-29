@@ -12,7 +12,7 @@ input[type="checkbox"] {
     left: 0;
 }
 
-label.checkbox {
+.checkbox {
     padding-left: 35px;
     position: relative;
     font-size: 24px;
