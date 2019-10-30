@@ -15,14 +15,15 @@
     width: 300px;
     padding: 16px;
     position: absolute;
-    top: calc(50% - 172.77px);
+    top: calc(50% - 186.44px);
     left: calc(50% - 150px);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
-.form-title {
+h1 {
     text-align: center;
     text-transform: uppercase;
+    display: block;
 }
 
 .form-control {
