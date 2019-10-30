@@ -42,6 +42,10 @@ h1 {
     margin-top: 4px;
 }
 
+.form-label {
+    margin-top: 4px;
+}
+
 .form-input:invalid {
     border: 3px solid #ff0000;
 }
@@ -54,8 +58,4 @@ h1 {
     border-radius: 4px;
     color: white;
     text-transform: uppercase;
-}
-
-.form-control {
-    margin-top: 8px;
 }
