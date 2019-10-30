@@ -1,7 +1,7 @@
-input {
-    margin: 16px;
+div {
+    margin: 8px;
 }
 
-form {
-    margin: 32px;
+.main {
+    margin: 40px;
 }

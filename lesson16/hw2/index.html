@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +13,18 @@
 </head>
 
 <body>
-    <form>
+    <form class="main">
         <div>
             <input type="text" name="primaryLanguage" value="HTML" disabled>
         </div>
         <div>
-            <input type="checkbox" name="agree" disabled>
+            <input type="checkbox" name="agree" readonly>
         </div>
         <div>
-            <input type="checkbox" name="like" readonly>
+            <input type="checkbox" name="like" checked>
         </div>
         <div>
-            <input type="color" value="#ff7f50">
+            <input name="favouriteColor" type="color" value="#ff7f50">
         </div>
         <div>
             <input type="date" name="birthDate" value="2021-01-02">
@@ -42,25 +45,25 @@
             <input type="number" name="favouriteNumber" value="17">
         </div>
         <div>
-            <textarea name="" id="" cols="29" rows="5" placeholder="A long time ago... "></textarea>
+            <textarea name="story" cols="30" rows="5" placeholder="A long time ago... "></textarea>
         </div>
         <div>
             <input type="password" name="password" value="secret">
         </div>
         <div class="languages">
-            <input type="radio" value="html">HTML
-            <input type="radio" value="css" checked>CSS
-            <input type="radio" value="javascript">JavaScript
+            <input name="language" type="radio" value="html"> HTML
+            <input name="language" type="radio" value="css" checked> CSS
+            <input name="language" type="radio" value="javascript"> JavaScript
         </div>
         <div>
             <input type="range" name="learningProgress" value="30">
         </div>
         <div>
             <select>
-            <option name="framework" value="react">React</option> 
-            <option name="framework" selected value="jquery" >jQuery</option> 
-            <option name="framework" value="bootstrap">Bootstrap</option> 
-        </select>
+                <option name="framework" value="react">React</option> 
+                <option name="framework" selected value="jquery" >jQuery</option> 
+                <option name="framework" value="bootstrap">Bootstrap</option> 
+            </select>
         </div>
         <div>
             <input type="search" name="search" placeholder="Type first letters...">
