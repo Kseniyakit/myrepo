@@ -12,11 +12,10 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: calc(50vh - 100px);
+    top: calc(50vh - 50px);
     left: calc(50vw - 100px);
-    animation: move 2s 2s;
+    animation: move 2s ease forwards;
     animation-fill-mode: initial;
-    animation-timing-function: ease;
 }
 
 @keyframes move {
