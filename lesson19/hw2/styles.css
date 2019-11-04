@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: calc(50vh - 50px);
+    top: calc(50vh - 100px);
     left: calc(50vw - 100px);
     animation: move 2s 2s;
     animation-fill-mode: initial;
