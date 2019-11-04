@@ -3,21 +3,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     height: 100vh;
 }
 
 .spinner {
-    text-align: center;
-    font-family: monospace;
-    font-size: 16px;
-    text-transform: uppercase;
     position: relative;
 }
 
 .spinner-text {
     animation: blinking 2s 2s;
     animation-iteration-count: infinite;
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .rect {
