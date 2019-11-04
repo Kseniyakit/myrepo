@@ -10,7 +10,7 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    line-height: 100px;
+    align-items: center;
     position: absolute;
     top: calc(50vh - 50px);
     left: calc(50vw - 100px);
